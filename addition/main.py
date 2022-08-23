@@ -3,7 +3,7 @@ import sys
 import keras
 import numpy
 from keras import layers
-from keras import optimizers, losses, metrics
+from keras import optimizers, losses
 
 LEN_INPUTS = 5  # We are adding five single-digit numbers.
 LEN_OUTPUTS = 46  # Sums of five single-digit numbers range from 0 to 45, giving 46 possible outputs.
